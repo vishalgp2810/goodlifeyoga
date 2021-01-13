@@ -26,6 +26,8 @@ const Liveclasse = () => {
                                 image={record.image_link}
                                 logo={Logo}
                                 amount={record.Amount}
+
+                                
                             />
                         })}
                     </div>
