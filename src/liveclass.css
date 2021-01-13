@@ -1,0 +1,26 @@
+.liveclass_heade {
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+.recomendedVideo {
+    background-color: #f9f9f9;
+    padding: 100px;
+    align-items: center;
+    padding-bottom: 0;
+}
+
+/* .recomendedVideo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+} */
+
+.recomendedVideo_video {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .recomendedVideo_video:hover {
+    transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+} */

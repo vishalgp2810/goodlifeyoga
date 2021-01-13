@@ -1,0 +1,47 @@
+.side_bar_row{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.side_barrow_icon{
+    color: #606060;
+    font-size: large !important;
+}
+
+.side_barrow_title{
+ flex: 1;
+ margin-left: 20px;
+ font-size: 12px;
+ font-weight: 500;
+}
+
+.side_bar_row:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.side_bar_row:hover > .side_barrow_icon {
+  color: red;
+}
+
+.side_bar_row:hover > .side_barrow_title {
+    font-weight: bold;
+  }
+
+.side_bar_row.selected {
+    background-color: lightgray;
+}
+
+.side_bar_row.selected > .side_barrow_icon {
+    color: red;
+}
+
+.side_bar_row.selected > .side_barrow_title {
+    font-weight: bold;
+}
