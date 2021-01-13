@@ -27,8 +27,9 @@ const Liveclasse = () => {
                                 logo={Logo}
                                 amount={record.Amount}
 
-                                
+
                             />
+                            
                         })}
                     </div>
                 </div>
